@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #FFB347, #FFCC70);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #5A3E36;
+    text-align: left;
+}
+
+.container {
+    min-height: 70vh;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF3E2;
+    border-radius: 20px;
+    box-shadow:0 4px 12px rgba(255, 140, 66, 0.2);
+}
+
+.heading p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    position: relative;
+    /* bottom: 20px; */
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.field {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.field input {
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    height: 35px;
+    width: 95%;
+    position: relative;
+    bottom: 10%;
+    margin-bottom: 15px;
+    text-align: left;
+    padding-left: 10px;
+    background-color: #FFECD1;
+}
+
+.field p {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    color: #5A3E36;
+    padding: 15px 108px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #FF8C42;
+}
+
+.btn:hover{
+
+}
+
+.msg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 85%;
+}
+
+.msg1 {
+    margin-bottom: 3px;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 20px 10px;
+    }
+
+    .heading p {
+        font-size: 1.3rem;
+        padding-bottom: 15px;
+    }
+
+    .btn {
+        padding: 12px 60px;
+        font-size: 1rem;
+    }
+
+    .field input {
+        font-size: 0.9rem;
+    }
+
+    .msg1,
+    .skip {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    .heading p {
+        font-size: 1.4rem;
+    }
+
+    .btn {
+        padding: 14px 80px;
+        font-size: 1.1rem;
+    }
+
+    .field input {
+        font-size: 1rem;
+    }
+
+    .msg1,
+    .skip {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .btn {
+        margin: 0 auto;
+        display: block;
+        padding: 15px 40px;  
+        width: 80%;
+    }
+
+    .field {
+        padding: 20px 40px;
+    }
+}

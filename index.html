@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Should I Bunk?</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attendance Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <div class="heading">
-            <p>Should I Bunk Today?</p>
-        </div>
-        <div class="field">
-            <p>Enter the total classes conducted:</p>
-            <input type="text" class="conducted" placeholder="0">
-            <p>Enter the total classes attended:</p>
-            <input type="text" class="attended" placeholder="0">
-            <p>Enter the attendance percentage required</p>
-            <input type="text" class="percentage" placeholder="0"><br>
-            <button class="btn">Calculate</button>
-        </div>
-        <div class="msg">
-            <p class="msg1"></p>
-            <p class="skip"></p>
+        <h1>Attendance<br>Calculator</h1>
+        <div class="content">
+            <div class="stats">
+                <div>
+                    <div class="number" id="attendance-percent">0%</div>
+                    <div class="label">Attendance</div>
+                </div>
+                <div>
+                    <div class="number" id="classes-attended">0</div>
+                    <div class="label">Classes Attended</div>
+                </div>
+                <div>
+                    <div class="number" id="classes-held">0</div>
+                    <div class="label">Classes Held</div>
+                </div>
+                <!-- <div>
+                    <div class="number" id="must-attend">0</div>
+                    <div class="label">Must Attend</div>
+                </div> -->
+            </div>
+            <form id="attendance-form">
+                <input type="number" id="attended" placeholder="Classes Attended" min="0" required />
+                <input type="number" id="total" placeholder="Classes Held" min="0" required />
+                <input type="number" id="required-percent" placeholder="Required Attendance %" min="0" max="100" required />
+                <button class="btn" type="submit">CALCULATE</button>
+            </form>
         </div>
     </div>
 </body>

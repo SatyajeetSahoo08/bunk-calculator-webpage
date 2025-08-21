@@ -2,7 +2,8 @@
 
 A modern, responsive web application that helps students calculate their attendance percentage and determine how many classes they need to attend to meet minimum requirements.
 
-![Attendance Calculator Preview](https://img.shields.io/badge/Status5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flatio/badge/CSS3-%231572B6.svg?style=.io/badge/JavaScript-%23323330.svg?style=flat&logo=javascript&logoColor=%
+![Attendance Calculator Preview](https://img.shields.io/badge/Status-Live-brightgreen) ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
+
 
 - **Real-time Calculation**: Instantly calculates attendance percentage as you type
 - **Smart Predictions**: Shows exactly how many classes you need to attend to meet requirements
@@ -25,7 +26,8 @@ A modern, responsive web application that helps students calculate their attenda
 
 ### Mobile View
 *Fully responsive design that works great on smartphones*
-![WhatsApp Image 2025-08-21 at 23 10 33_8f19c56c](https://github.com/user-attachments/assets/b83faad6-4176-47ee-b5a3-239085b8dda8)
+<img width="270" height="578" alt="image" src="https://github.com/user-attachments/assets/d2c2e17e-7781-4161-9350-f4c5ceabc652" />
+
 
 
 ## 🛠️ Technologies Used

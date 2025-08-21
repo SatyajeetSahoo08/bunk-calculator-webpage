@@ -26,6 +26,7 @@ A modern, responsive web application that helps students calculate their attenda
 
 ### Mobile View
 *Fully responsive design that works great on smartphones*
+
 <img width="270" height="578" alt="image" src="https://github.com/user-attachments/assets/d2c2e17e-7781-4161-9350-f4c5ceabc652" />
 
 

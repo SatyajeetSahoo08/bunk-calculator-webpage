@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attendance Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Should I<br>Bunk Today?</h1>
+        <div class="content">
+            <div class="stats">
+                <div>
+                    <div class="number" id="attendance-percent">0%</div>
+                    <div class="label">Attendance</div>
+                </div>
+                <div>
+                    <div class="number" id="classes-attended">0</div>
+                    <div class="label">Classes Attended</div>
+                </div>
+                <div>
+                    <div class="number" id="classes-held">0</div>
+                    <div class="label">Classes Held</div>
+                </div>
+                <!-- <div>
+                    <div class="number" id="must-attend">0</div>
+                    <div class="label">Must Attend</div>
+                </div> -->
+            </div>
+            <form id="attendance-form">
+                <input type="number" id="attended" placeholder="Classes Attended" min="0" required />
+                <input type="number" id="total" placeholder="Classes Held" min="0" required />
+                <input type="number" id="required-percent" placeholder="Required Attendance %" min="0" max="100" required />
+                <button class="btn" type="submit">CALCULATE</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
